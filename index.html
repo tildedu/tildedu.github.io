@@ -1,0 +1,256 @@
+<!--
+
+	PLEASE ADD THIS ENTIRE NOTICE IN ALL REDISTRIBUTIONS
+	GPL GNU v3.0
+
+	Site Developed by:
+	Chris Maggiulli
+	Director, Product Development, SIS
+	cmaggiulli@gmail.com
+	cm4202@columbia.edu
+
+	1. Materializecss for front-end styling.  Materializecss is why this site looks pretty.
+		http://www.materializecss.com
+
+	2. Devicon and Font Awesome.  Most of the icons you see (in the nav bar and the colored ones in icon block) are actually font characters.  Icons
+	 are public domain or licensed for redistribution.  Below is a link to icons:
+		a. Devicon  - http://devicon.fr
+		b. Google   - https://fonts.googleapis.com/
+		c. Font A.  - http://fontawesome.com
+
+	3. All image files are used under .
+		a. Rocket ship is Android Lollipop with Material Design theme
+		b. Orange background parallax is a stock Microsoft wallpaper. Used with permission from Microsoft.
+		c. The astronaut and a few other "science" themed cartoon icons are from two different free science icon sets - both carrying no restriction
+		d. Any vendor image being used when a product is referenced is either licensed accordingly or fair use
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+			
+		<!-- Meta Information -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="theme-color" content="#85BB98">
+
+		<title>Vergil Product & Engineering Blog</title>
+
+		<!-- External Scripts -->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>           
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+		<!--<script src="https://use.fontawesome.com/4a6859c4d1.js"></script>-->
+		<script src="https://kit.fontawesome.com/fd1b47a1ab.js" crossorigin="anonymous"></script>
+
+		<!-- External Stylesheets -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Poppins">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+
+
+		<style type="text/css">
+			html, body {
+				font-family: 'Poppins', serif;
+				/*font-family:'proxima-nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+				overflow-x: hidden;
+			}
+
+			.extra-large {
+				font-size:8em;
+			}
+
+			h1 {
+				letter-spacing:.2em;
+				font-weight:900;
+			}
+			
+			h2 {
+				font-weight:600;
+			}
+			
+			body::-webkit-scrollbar {
+				width: 0.5em;
+			}
+
+			body::-webkit-scrollbar-track {
+				background-color:#C14D00;
+				-webkit-box-shadow: inset 0 0 26px rgba(0,0,0,0.3);
+			}
+
+			body::-webkit-scrollbar-thumb {
+				background-color:#841C1C;
+				outline: 1px solid slategrey;
+			}
+
+			a:hover {
+				text-decoration:none;
+			}
+
+			#sky {
+				opacity: 0.3;
+				filter: alpha(opacity=30);
+			}
+			
+			.columbia-wide-usage {
+				font-family:“proxima-nova”, ‘Helvetica Neue’, Helvetica, Arial, sans-serif;
+				color:#841C1C;
+				font-weight:700;
+			}
+			.columbia-primary-color {
+				background-color:#000d74 !important;
+			}
+			.columbia-secondary-web-blue {
+				background-color:#D2D2C0 !important;
+			}
+			.columbia-tertiary-text {
+				font-color:#C14D00 !important;
+			}
+			.highlight-color-pink {
+				background-color:#8E0F56;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<header>
+			<!-- Main Navigation -->
+			<nav class="highlight-color-pink columbia-primary-color" role="navigation">
+				<div class="nav-wrapper container">
+					<a href="#" data-activates="side-bar" class="button-collapse"><i class="fa fa-bars" aria-hidden="true"></i></a>
+					<ul class="right hide-on-small-only">
+						<li><a href="#" class="tooltipped" data-position="bottom" data-delay="150" data-tooltip="About" target="_blank"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+						<li><a href="#" class="tooltipped" data-position="bottom" data-delay="150" data-tooltip="Team" target="_blank"><i class="fa fa-solid fa-users-gear" aria-hidden="true"></i></a></li>
+						<li><a href="#" class="tooltipped" data-position="bottom" data-delay="150" data-tooltip="Blog"><i class="fa fa-btc" aria-hidden="true"></i></a></li>
+						<li><a href="#" class="tooltipped" data-position="bottom" data-delay="150" data-tooltip="Contact"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+						<li><a href="#" class="tooltipped" data-position="bottom" data-delay="150" data-tooltip="Code"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+						<li><a href="#" class="tooltipped" data-position="bottom" data-delay="150" data-tooltip="Projects"><i class="devicon-confluence-plain"></i></a></li>
+
+
+
+					</ul>
+					<ul class="side-nav columbia-secondary-web-blue" id="side-bar">
+						<li class="valign-wrapper"><a href=""><h3 class="columbia-tertiary-text">About</h3></a></li>
+						<li class="valign-wrapper"><a href=""><h3 class="columbia-tertiary-text">Team</h3></a></li>
+						<li class="valign-wrapper"><a href=""><h3 class="columbia-tertiary-text">Blog</h3></a></li>
+						<li class="valign-wrapper"><a href=""><h3 class="columbia-tertiary-text">Contact</h3></a></li>
+						<li class="valign-wrapper"><a href=""><h3 class="columbia-tertiary-text">Code</h3></a></li>
+						<li class="valign-wrapper"><a href=""><h3 class="columbia-tertiary-text">Projects</h3></a></li>
+
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<main>
+			<!-- First Parallax Container -->
+			<div id="index-banner" class="parallax-container valign-wrapper">
+				<div class="section">
+					<div class="container">
+						<div class="row">
+							<div class="col l6 hide-on-med-and-down center">
+								<img src="img/icons/columbia-logo-300x300.png" class="circle responsive-image" />
+							</div>
+							<div class="col s12 m12 l6">
+								<h1 class="columbia-wide-usa2ge">Columbia University</h1> 
+								<h2 class="columbia-wide-usag2e">Vergil's Product & Engineering Blog</h2>
+								<blockquote class="flow-text">
+									Vergil is Columbia Universities new Student Information System (SIS).  Vergil was developed internally by a dedicated product team consisting of 60 software engineers, application architects, cloud engineers, product managers, technical analysts, as well multiple consulting partners and accelerators.  Vergil is cloud native and the application is comprised of multiple microservices that are indistinguishable to the end user
+								</blockquote>
+							</div>
+						</div>
+					</div>
+					<div class="parallax"><img src="img/parallax/cu.jpg" id="sky" alt="about image"></div>
+				</div>
+			</div>
+			
+			<!-- Icon Block container -->
+			<div class="container">
+				<div class="section pad-bot pad-top">
+					<div class="row center">
+						<br />
+						<div class="col s12 m4">
+							<div class="icon-block">
+								<i class="center devicon-amazonwebservices-original colored extra-large"></i>
+								<h3 class="center">Cloud Architecture</h3>
+								<p class="light">
+							        	A high level technical overview of our AWS Cloud Architecture
+								</p>
+							</div>
+						</div>
+						<div class="col s12 m4">
+							<div class="icon-block">
+								<i class="center devicon-django-plain-wordmark colored extra-large"></i>
+								<h3 class="center">Django Microservices</h3>
+								<p class="light">
+									This article outlines Vergil's Lambda microservice architecture using Django
+								</p>
+							</div>
+						</div>
+						<div class="col s12 m4">
+							<div class="icon-block">
+								<i class="center devicon-gitlab-plain-wordmark colored extra-large"></i>
+								<h3 class="center">GitLab Flow</h3>
+								<p class="light">
+									An detailed overview of the branching and merging strategy employed in the development of 
+									Vergil.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- First Parallax Container -->
+			<div class="parallax-container">
+				<div class="section">
+					<div class="container">
+						<div class="row">
+							
+						</div>
+					</div>
+					<div class="parallax"><img src="img/parallax/cu2.jpg" alt="Unsplashed background img 1"></div>
+				</div>
+			</div>
+			
+			<div class="container">
+				<div class="row center">
+					<div class="col l4  hide-on-med-and-down">
+						<img src="img/icons/vergil-sm.png" class="responsive-image" />
+					</div>
+					<div class="col s12 m8 l8 pull">
+						<blockquote class="medium flow-text">
+							<h1>Publius Vergilius Maro</h1>
+							<p>
+								Publius Vergilius Maro was an ancient Roman poet of the Augustan period. He composed three of the most famous poems in Latin literature: the Eclogues (or Bucolics), the Georgics, and the epic Aeneid. A number of minor poems, collected in the Appendix Vergiliana, were attributed to him in ancient times, but modern scholars consider his authorship of these poems as dubious.
+							</p>
+						</blockquote>
+					</div>
+				</div>
+			</div>
+		</main>
+		
+		
+		<!-- Footer -->
+		<footer class="page-footer" style="background-color:#C4D8E2 !important;">
+			<div class="section no-pad-bot no-pad-bottom" style="background-color:#C4D8E2 !important;"></div>
+				<div class="row">
+					<div class="col l12s12">
+					</div>
+				</div>
+				<div class="footer-copyright" style="background-color:#2C6BAC !important;>
+					<div class="container valign-wrapper">
+						<i class="small fa fa-copyright valign left" aria-hidden="true"></i>
+						<a class="white-text thin valign" rel="license" target="_blank" href="https://www.gnu.org/licenses/gpl-3.0.en.html">The GNU General Public License v3.0 </a>.
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!--  Scripts-->
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="js/materialize.js"></script>
+		<script src="js/init.js"></script>
+	</body>
+</html>
+
